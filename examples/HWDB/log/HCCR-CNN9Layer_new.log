@@ -44,10 +44,10 @@ layer {
   }
   transform_param {
     crop_size: 96
-    mean_file: "/data/tbxu/HWDB1.0_1.1_mean_104.binaryproto"
+    mean_file: "/your/path/to/HWDB1.0_1.1_mean_104.binaryproto"
   }
   data_param {
-    source: "/data/tbxu/HWDB1.0_1.1_train_test_lmdb_104"
+    source: "/your/path/to/HWDB1.0_1.1_train_test_lmdb_104"
     batch_size: 64
     backend: LMDB
   }
@@ -952,10 +952,10 @@ layer {
   }
   transform_param {
     crop_size: 96
-    mean_file: "/data/tbxu/HWDB1.0_1.1_mean_104.binaryproto"
+    mean_file: "/your/path/to/HWDB1.0_1.1_mean_104.binaryproto"
   }
   data_param {
-    source: "/data/tbxu/ICDAR13_test_lmdb_104"
+    source: "/your/path/to/ICDAR13_test_lmdb_104"
     batch_size: 13
     backend: LMDB
   }
@@ -6509,5 +6509,5 @@ I0526 02:03:58.729954 32256 sgd_solver.cpp:273] Snapshotting solver state to bin
 I0526 02:03:58.943671 32256 solver.cpp:337] Iteration 300000, Testing net (#0)
 I0526 02:07:05.966790 32256 solver.cpp:404]     Test net output #0: accuracy = 0.97422
 I0526 02:07:05.966925 32256 solver.cpp:404]     Test net output #1: loss = 0.115362 (* 1 = 0.115362 loss)
-I0526 03:10:09.521880 32256 solver.cpp:322] Optimization Done.
-I0526 03:10:09.678161 32256 caffe.cpp:254] Optimization Done.
+I0526 02:07:05.521880 32256 solver.cpp:322] Optimization Done.
+I0526 02:07:05.678161 32256 caffe.cpp:254] Optimization Done.
