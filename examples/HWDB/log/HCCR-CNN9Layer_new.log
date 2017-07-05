@@ -13,7 +13,7 @@ momentum: 0.9
 weight_decay: 0.0002
 stepsize: 70000
 snapshot: 20000
-snapshot_prefix: "./examples/HWDB/model/HCCR-CNN9Layer_1.0_1.1_mean_msra_PReLU_pad104"
+snapshot_prefix: "./examples/HWDB/model/HCCR-CNN9Layer_1.0_1.1"
 solver_mode: GPU
 device_id: 2
 net: "./examples/HWDB/HCCR-CNN9Layer_train_test.prototxt"
@@ -6509,5 +6509,5 @@ I0526 02:03:58.729954 32256 sgd_solver.cpp:273] Snapshotting solver state to bin
 I0526 02:03:58.943671 32256 solver.cpp:337] Iteration 300000, Testing net (#0)
 I0526 02:07:05.966790 32256 solver.cpp:404]     Test net output #0: accuracy = 0.97422
 I0526 02:07:05.966925 32256 solver.cpp:404]     Test net output #1: loss = 0.115362 (* 1 = 0.115362 loss)
-I0526 02:07:05.521880 32256 solver.cpp:322] Optimization Done.
-I0526 02:07:05.678161 32256 caffe.cpp:254] Optimization Done.
+I0526 02:07:05.966933 32256 solver.cpp:322] Optimization Done.
+I0526 02:07:06.437449 32256 caffe.cpp:254] Optimization Done.
